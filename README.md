@@ -22,3 +22,6 @@
 - Airflow is not a streaming solution.
 - It uses coding to do the workflows.  
 
+### <span style="color:#ffbd40">Installation<span>
+
+Installation in windows can be tricky. We can either use Windows Subsytem for Linux or docker image to install airflow.
