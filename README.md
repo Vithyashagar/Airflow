@@ -26,4 +26,7 @@
 
 Installation in windows can be tricky. We can either use Windows Subsytem for Linux or docker image to install airflow.
 - [WSL2 installation](https://www.freecodecamp.org/news/how-to-install-wsl2-windows-subsystem-for-linux-2-on-windows-10/)
+    After installing the dependencies use ```console
+    wsl --install -d Ubuntu
+    ``` to install ubuntu in cmd. 
 - [Airflow Installation without docker in windows](https://www.freecodecamp.org/news/install-apache-airflow-on-windows-without-docker/)
