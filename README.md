@@ -31,3 +31,40 @@ Installation in windows can be tricky. We can either use Windows Subsytem for Li
         wsl --install -d Ubuntu
     ``` 
 - [Airflow Installation without docker in windows](https://www.freecodecamp.org/news/install-apache-airflow-on-windows-without-docker/)
+
+### <span style="color:#ffbd40">Freequently used commands<span>
+
+- To activate the environment.(Always remember to restart the terminal when storing any variables)
+```console
+    source airflow_env/bin/activate
+```
+- To go to airflow home
+```console
+    cd $AIRFLOW_HOME
+```
+
+- User creation
+```console
+airflow users create --username admin –password admin –firstname admin –lastname admin –role Admin –email youremail@email.com
+```
+
+- check created user
+```console
+airflow users list
+```
+
+- Run the webserver
+```console
+airflow scheduler 
+airflow webserver 
+```
+
+or to specify the port
+```console
+airflow webserver –port <port number>
+```
+
+or to start in a single process
+```console
+airflow standalone
+```
